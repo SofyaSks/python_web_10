@@ -29,16 +29,20 @@ class Car:
     def distance(self):
         return self.__distance
 
-    def setBrand (self, brand):
+    @brand.setter
+    def brand (self, brand):
         self.brand = brand
 
-    def setYear (self, year):
+    @year.setter
+    def year (self, year):
         self.year = year
 
-    def setSpeed (self, speed):
+    @speed.setter
+    def speed (self, speed):
         self.speed = speed
 
-    def setDistance(self, distance):
+    @distance.setter
+    def distance(self, distance):
         self.distance = distance
 
     def countTime (self):
